@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_menu"
+        android:orderInCategory="100"
+        android:icon="@drawable/thembanan"
+        android:title="Thêm bàn ăn"
+        >
+        <menu>
+            <item
+                android:title="thêm bàn ăn"
+                android:orderInCategory="100"
+                android:id="@+id/them_ban">
+
+            </item>
+            <item
+                android:title="xáo bàn ăn"
+             android:orderInCategory="100"
+             android:id="@+id/xao_ban">
+            </item>
+        </menu>
+    </item>
+
+
+
+</menu>
